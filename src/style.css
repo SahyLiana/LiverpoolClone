@@ -1,0 +1,126 @@
+#courseChoices {
+    display: none;
+  }
+  #test {
+    transition-duration: 700ms;
+    /* overflow-y:visible ; */
+  }
+#nav {
+    position: fixed;
+    z-index: 1;
+    transition-duration: 700ms;
+    overflow-x: hidden;
+    font-size: 1.125rem /* 18px */;
+    line-height: 1.75rem /* 28px */;
+    padding-top: 1rem /* 16px */;
+    --tw-text-opacity: 1;
+
+    color: white;
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 100%;
+  }
+  #subnavStudy {
+    position: fixed;
+    z-index: 1;
+    transition-duration: 700ms;
+    overflow-x: hidden;
+    font-size: 1.125rem /* 18px */;
+    line-height: 1.75rem /* 28px */;
+    padding-top: 1rem /* 16px */;
+    --tw-text-opacity: 1;
+
+    color: white;
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 100%;
+  }
+  #subnavResearch {
+    position: fixed;
+    z-index: 1;
+    transition-duration: 700ms;
+    overflow-x: hidden;
+    font-size: 1.125rem /* 18px */;
+    line-height: 1.75rem /* 28px */;
+    padding-top: 1rem /* 16px */;
+    --tw-text-opacity: 1;
+
+    color: white;
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 100%;
+  }
+  #subnavAbout {
+    position: fixed;
+    z-index: 1;
+    transition-duration: 700ms;
+    overflow-x: hidden;
+    font-size: 1.125rem /* 18px */;
+    line-height: 1.75rem /* 28px */;
+    padding-top: 1rem /* 16px */;
+    --tw-text-opacity: 1;
+
+    color: white;
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 100%;
+  }
+  .active {
+    --tw-bg-opacity: 1;
+    background-color: rgb(30 58 138 / var(--tw-bg-opacity));
+  }
+  .content {
+    overflow: hidden;
+    display: none;
+  }
+  #liv {
+    position: absolute;
+    min-width: 1500px;
+    /* height: 24rem; */
+    height: 24rem;
+    top: 100%;
+    overflow:visible;
+    /* display: block; */
+    z-index: 1;
+    overflow:visible;
+  }
+  #res {
+    position: absolute;
+    min-width: 1500px;
+    /* height: 24rem; */
+    height: 20rem;
+    top: 100%;
+    /* display: none; */
+    z-index: 1;
+  }
+  #ab {
+    position: absolute;
+    min-width: 1500px;
+    /* height: 24rem; */
+    height: 28rem;
+    top: 100%;
+    /* display: none; */
+    z-index: 1;
+  }
+  #search {
+    position: absolute;
+    min-width: 1500px;
+    /* height: 24rem; */
+    height: auto;
+    top: 100%;
+    /* display: none; */
+    z-index: 1;
+    background-color: green;
+  }
